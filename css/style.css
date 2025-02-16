@@ -4,3 +4,11 @@
   font-weight: 400;
   src: url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
+
+.header {
+  background: black;
+}
+
+.hero {
+  background: url(../img/hero.png);
+}
