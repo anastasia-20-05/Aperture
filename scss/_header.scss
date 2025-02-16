@@ -1,0 +1,25 @@
+.header {
+    background: var(--black);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px var(--container_gap);
+    }
+
+    &_right {
+        display: flex;
+        gap: 31px;
+        align-items: center;
+    }
+
+    &_menu {
+        display: flex;
+        gap: 32px;
+
+        a {
+            color: var(--white);
+        }
+    }
+}

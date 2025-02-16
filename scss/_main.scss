@@ -1,0 +1,10 @@
+li {
+    list-style-type: none;
+}
+
+.container {
+    display: block;
+    max-width: 1400px;
+    padding: 0 var(--container_gap);
+    margin: 0 auto;
+}
